@@ -11,8 +11,8 @@
 ```markdown
 # Applied Data Science Capstone Project  
 **Course:** IBM Data Science Professional Certificate (Coursera)  
-**Author:** [Your Name]  
-**GitHub:** [Your Repo Link]  
+**Author:** Jefferson Firmino Mendes
+**GitHub:** www.github.com/jeffthedeveloper  
 
 ## 🎯 Project Overview  
 This project demonstrates an end-to-end data science workflow, from **data collection** to **predictive modeling**, as part of the IBM/Coursera Applied Data Science Capstone. It includes:  
@@ -20,7 +20,7 @@ This project demonstrates an end-to-end data science workflow, from **data colle
 - **Exploratory Data Analysis (EDA)** with Python & SQL  
 - **Interactive visualizations** (Folium maps, Plotly Dash)  
 - **Machine learning** (classification/regression) for predictions  
-
+``` 
 ## 📂 Repository Structure  
 ```bash
 ├── data/                    # Raw & processed datasets  
