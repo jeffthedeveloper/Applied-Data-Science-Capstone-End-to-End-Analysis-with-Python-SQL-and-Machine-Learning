@@ -67,7 +67,7 @@ This project demonstrates an end-to-end data science workflow, from **data colle
 This project is part of an educational coursework (MIT License).  
 
 ## 📊 Presentation  
-[Link PDF slides]  
+click here ➡ [https://drive.google.com/drive/home]  
 
 ---
 ```
