@@ -36,6 +36,7 @@ This project demonstrates an end-to-end data science workflow, from **data colle
 ```
 
 ## 🛠️ Tools & Technologies  
+
 - **Python** (Pandas, NumPy, Matplotlib, Seaborn)  
 - **SQL** (SQLite, PostgreSQL, or IBM Db2)  
 - **Interactive Maps**: Folium  
@@ -70,9 +71,8 @@ This project is part of an educational coursework (MIT License).
 
 ---
 ```
-
 ### **Customization Tips:**  
-- Replace **[your-repo-url]**, **[Your Name]**, and example findings with **your project specifics**.  
+
 - For **SpaceX projects**, highlight:  
   - Falcon 9 landing predictions  
   - Folium launch site analysis  
