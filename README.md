@@ -52,7 +52,7 @@ This project demonstrates an end-to-end data science workflow, from **data colle
 ## 🚀 How to Run  
 1. Clone the repo:  
    ```bash
-   git clone [https://github.com/jeffthedeveloper/Applied-Data-Science-Capstone-End-to-End-Analysis-with-Python-SQL-and-Machine-Learning/blob/main/README.md]
+   git clone https://github.com/jeffthedeveloper/Applied-Data-Science-Capstone-End-to-End-Analysis-with-Python-SQL-and-Machine-Learning/blob/main/README.md
    ```
 2. Install dependencies:  
    ```bash
