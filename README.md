@@ -150,6 +150,89 @@ end
   <img src="https://github.com/jeffthedeveloper/Applied-Data-Science-Capstone-End-to-End-Analysis-with-Python-SQL-and-Machine-Learning/blob/main/stock_data_extraction.gif?raw=true" alt="Extração de Dados de Ações">
 </div>
 
+## ⚙️ Demonstrações Adicionais / Additional Demonstrations
+
+**PT-BR:** GIFs que ilustram processos-chave executados durante os laboratórios e projetos, como consultas SQL, coleta de dados via API e a geração de visualizações geoespaciais.
+
+**EN-US:** GIFs illustrating key processes performed during labs and projects, such as SQL queries, data collection via API, and the generation of geospatial visualizations.
+
+---
+
+### Tarefa de Banco de Dados com SQL / SQL Database Peer Assignment
+
+**PT-BR:** Neste projeto, foram utilizadas queries SQL complexas com `JOINS` e subqueries para cruzar dados de segurança pública, censitários e de escolas de Chicago, extraindo insights sobre a relação entre indicadores socioeconômicos e o ambiente escolar.
+
+**EN-US:** In this project, complex SQL queries with `JOINS` and subqueries were used to cross-reference public safety, census, and school data from Chicago, extracting insights about the relationship between socioeconomic indicators and the school environment.
+
+---
+**Exemplo de Query Complexa / Example of a Complex Query:**
+*A query abaixo localiza escolas em comunidades com baixa renda per capita, demonstrando a habilidade de conectar diferentes fontes de dados para responder a uma questão de negócio.* / *The query below locates schools in communities with low per capita income, demonstrating the ability to connect different data sources to answer a business question.*
+
+```sql
+SELECT C.NAME_OF_SCHOOL, C.AVERAGE_STUDENT_ATTENDANCE
+FROM CENSUS_DATA AS CD
+JOIN CHICAGO_PUBLIC_SCHOOLS AS C
+ON CD.COMMUNITY_AREA_NUMBER = C.COMMUNITY_AREA_NUMBER
+WHERE CD.PER_CAPITA_INCOME < 12000;
+```
+<div align="center">
+  <img src="https://github.com/jeffthedeveloper/Applied-Data-Science-Capstone-End-to-End-Analysis-with-Python-SQL-and-Machine-Learning/blob/main/unpublished-query.gif?raw=true" alt="Análise Aprofundada de Lançamentos SpaceX para Cargas Pesadas" width="720">
+</div>
+
+---
+
+### 🚀 Análise Aprofundada: Otimização de Lançamentos para Cargas Pesadas / In-Depth Analysis: Heavy Payload Launch Optimization
+
+**PT-BR:** Esta seção demonstra uma análise proativa e inédita, expandindo o escopo do curso. O objetivo foi identificar o **melhor local de lançamento** para foguetes que transportam cargas úteis superiores a 5.000 kg, considerando a taxa de sucesso. A análise envolveu a manipulação de um dataset completo e a visualização geoespacial com Folium para destacar o local de maior performance.
+
+**EN-US:** This section showcases a proactive and original analysis, expanding beyond the course's scope. The objective was to identify the **optimal launch site** for rockets carrying payloads exceeding 5,000 kg, based on their success rate. The analysis involved manipulating a comprehensive dataset and using Folium for geospatial visualization to highlight the best-performing site.
+
+<div align="center">
+  <img src="https://github.com/jeffthedeveloper/Applied-Data-Science-Capstone-End-to-End-Analysis-with-Python-SQL-and-Machine-Learning/blob/main/unpublished-question.gif?raw=true" alt="Análise Aprofundada de Lançamentos SpaceX para Cargas Pesadas" width="720">
+</div>
+
+---
+
+**Insights Chave / Key Insights:**
+
+* **Identificação do Local Ótimo:** Através de filtragem de dados e cálculo de taxas de sucesso, foi determinado que o local **VAFB SLC-4E** em Vandenberg, Califórnia, apresenta a melhor performance para lançamentos de cargas pesadas.
+* **Visualização Clara:** O mapa interativo Folium foi renderizado com um marcador de estrela verde customizado, destacando visualmente a localização exata do local de lançamento mais eficaz.
+* **Demonstração de Habilidade:** Este projeto valida a capacidade de ir além das instruções básicas, formular e responder a perguntas complexas de negócio/análise utilizando Python, Pandas e Folium.
+
+**Coordenadas do Melhor Local (VAFB SLC-4E):** Lat=34.63283416, Long=-120.6107455
+---
+
+### Documentação e Ecossistema / Documentation and Ecosystem
+*Visão geral de artefatos de documentação e notebooks que exploram o ecossistema de Data Science.* / *Overview of documentation artifacts and notebooks exploring the Data Science ecosystem.*
+
+---
+
+### Ecossistema de Ferramentas e Processos / Ecosystem of Tools and Processes
+
+```mermaid
+graph TD
+    subgraph "Fase 1: Coleta e Engenharia"
+        A[<br><b>Fontes de Dados</b><br>APIs, CSVs, Web Scraping] --> B{<b>Processamento e Armazenamento</b><br>Python & SQL};
+    end
+
+    subgraph "Fase 2: Análise e Modelagem"
+        B --> C[<b>Limpeza e Análise Exploratória</b><br>Pandas, NumPy];
+        C --> D{<b>Machine Learning</b><br>Scikit-learn};
+    end
+
+    subgraph "Fase 3: Visualização e Comunicação"
+        D --> E[<b>Visualização de Dados</b><br>Matplotlib, Seaborn];
+        C --> E;
+        B --> F[<b>Mapas Geoespaciais</b><br>Folium];
+        E & F --> G((<b>Resultados e Insights</b><br>Dashboards, Relatórios, APIs));
+    end
+
+    style A fill:#D6EAF8,stroke:#2874A6
+    style B fill:#D1F2EB,stroke:#138D75
+    style C fill:#FDEDEC,stroke:#B03A2E
+    style D fill:#FAD7A0,stroke:#AF601A
+    style G fill:#bbf,stroke:#333,stroke-width:2px
+```
 ## 6\. 🛠️ Ferramentas e Tecnologias / Tools & Technologies
 
   * **Linguagens / Languages:** Python, SQL
