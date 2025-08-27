@@ -8,7 +8,7 @@
 </div>
 
 **Autor / Author:** Jefferson Firmino Mendes  
-**Contato / Contact:** [GitHub](https://github.com/jeffthedeveloper) | [LinkedIn](www.linkedin.com/in/jfconsultoria)  
+**Contato / Contact:** [GitHub](https://github.com/jeffthedeveloper) | [LinkedIn](https://www.linkedin.com/in/jfconsultoria/)
 **Certificação / Certification:** IBM Data Science Professional Certificate (Coursera)
 
 ## 📄 Resumo (PT-BR) / Abstract (EN-US)
