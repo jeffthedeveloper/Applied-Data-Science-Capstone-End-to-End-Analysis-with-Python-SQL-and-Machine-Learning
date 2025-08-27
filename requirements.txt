@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+folium
+plotly
+jupyterlab
+ipython-sql
+sqlalchemy
+ibm_db
+ibm_db_sa
+beautifulsoup4
+requests
+fpdf
